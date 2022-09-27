@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^14.1.0",
+    "axios": "^0.27.2"
+  },
+  "name": "1012_rollup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-json": "^4.1.0",
+    "rollup": "^2.79.1"
+  },
+  "scripts": {
+    "build": "rm -rf ./dist && rollup --config rollup.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
