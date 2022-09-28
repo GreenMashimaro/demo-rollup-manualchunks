@@ -1,6 +1,6 @@
 # demo rollup manualChunks
 
-see rollup.config.js output.manualChunks
+see `./rollup.config.js` -> `output.manualChunks`
 
 `npm run build` to view build results
 
